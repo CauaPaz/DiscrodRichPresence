@@ -2,6 +2,6 @@ from pypresence import Presence
 import time
 
 while True:
-    rpc = Presence("987863377462304829")
+    rpc = Presence("your-id")
     rpc.connect()
-    rpc.update(state="meu server ai ó.", details='python é mo legal :D', large_image="static2",small_image="static2",start=time.time(),buttons=[{"label":"Discord Server :D", "url":"https://discord.gg/JGcRUhHRkK"}] )
+    rpc.update(state="msg1", details='msg2', large_image="image-name",small_image="image-name",start=time.time(),buttons=[{"label":"Text", "url":"any-link"}] )
